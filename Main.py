@@ -13,7 +13,7 @@ class Stack:
         else:
             return False
 
-    def is_full(self)
+    def is_full(self):
         """If the stack is full then its length is as much as the max size given by the user"""
         if len(self.items)==self.size:
             return True
